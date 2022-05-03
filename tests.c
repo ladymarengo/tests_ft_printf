@@ -132,9 +132,10 @@ double *get_double()
 	doubles[10] = 0.75;
 	doubles[11] = 0.85;
 	doubles[12] = 0.95;
-	doubles[12] = 1;
-	doubles[12] = -1.5;
-	doubles[13] = 0;
+	doubles[13] = 1;
+	doubles[14] = -1.5;
+	doubles[15] = 9.99;
+	doubles[16] = 0;
 
 	return (doubles);
 }
@@ -157,9 +158,10 @@ float *get_float()
 	floats[10] = 0.75;
 	floats[11] = 0.85;
 	floats[12] = 0.95;
-	floats[12] = 1;
-	floats[12] = -1.5;
-	floats[13] = 0;
+	floats[13] = 1;
+	floats[14] = -1.5;
+	floats[15] = 9.99;
+	floats[16] = 0;
 
 	return (floats);
 }
@@ -182,9 +184,10 @@ long double *get_long_double()
 	long_doubles[10] = 0.75l;
 	long_doubles[11] = 0.85l;
 	long_doubles[12] = 0.95l;
-	long_doubles[12] = 1l;
-	long_doubles[12] = -1.5l;
-	long_doubles[13] = 0;
+	long_doubles[13] = 1l;
+	long_doubles[14] = -1.5l;
+	long_doubles[15] = 9.99;
+	long_doubles[16] = 0;
 
 	return (long_doubles);
 }
