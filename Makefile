@@ -8,7 +8,7 @@ test:
 	@gcc -w tests.c main.c ../libftprintf.a
 	@./a.out > ft_printf
 	@rm a.out tests.h
-	diff printf ft_printf || true
+	diff printf ft_printf > diff.txt || true
 	@rm printf ft_printf
 	@make -C .. fclean
 
