@@ -22,4 +22,5 @@ It will look like this:
 Lines with "<" is the original printf output and ">" is user's. "%- 6ld" here is the format string used in the test, everything between "|" is the output and the number in the end is the return value. For example in this particular case diff shows us that the user's ft_printf doesn't handle space flag.
 
 - In tests.c file you can change tests, for example add new format strings or values for different conversions. If you come up with something interesting, feel free to contact me and I will update the repo!
+- Some of the tests cause undefined behavior, for example for c and s conversions. Make sure to recheck!
 - You can also use "make main" to compile old_main.c file with user's ft_printf (don't forget to check the path to the header in it too). There are some random tests there now, you can delete them and add yours if you want to test something without running everything else (for example you fixed this space flag problem and want to check it specifically).
